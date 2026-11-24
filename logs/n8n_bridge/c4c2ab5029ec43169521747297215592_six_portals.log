@@ -1,0 +1,64 @@
+Stage: six_portals
+Started: 2026-11-24T09:04:13.931511+00:00
+Command: C:\Users\austi\AppData\Local\Programs\Python\Python310\python.exe scripts/run_six_portals.py --source all --max-results 200 --delay 2 --hours-old 48
+
+2026-11-24 14:34:14,601 INFO Starting jobicy (1/5)
+2026-11-24 14:34:20,233 INFO Database connection pool initialized (engine=postgres, min_size=1, max_size=5)
+2026-11-24 14:34:21,442 INFO Jobicy: found=0 inserted=0 updated=0 invalid=0
+2026-11-24 14:34:23,443 INFO Starting arbeitnow (2/5)
+2026-11-24 14:34:46,317 INFO Arbeitnow: found=0 inserted=0 updated=0 invalid=0
+2026-11-24 14:34:48,318 INFO Starting we-work-remotely (3/5)
+2026-11-24 14:34:53,995 INFO We Work Remotely: found=0 inserted=0 updated=0 invalid=0
+2026-11-24 14:34:55,999 INFO Starting remote-ok (4/5)
+2026-11-24 14:34:58,089 INFO Remote OK: found=0 inserted=0 updated=0 invalid=0
+2026-11-24 14:35:00,090 INFO Starting working-nomads (5/5)
+2026-11-24 14:35:02,923 INFO Working Nomads: found=0 inserted=0 updated=0 invalid=0
+{
+  "selected_sources": [
+    "jobicy",
+    "arbeitnow",
+    "we-work-remotely",
+    "remote-ok",
+    "working-nomads"
+  ],
+  "succeeded": 5,
+  "failed": 0,
+  "results": [
+    {
+      "source": "Jobicy",
+      "found": 0,
+      "inserted": 0,
+      "updated": 0,
+      "invalid_records_skipped": 0
+    },
+    {
+      "source": "Arbeitnow",
+      "found": 0,
+      "inserted": 0,
+      "updated": 0,
+      "invalid_records_skipped": 0
+    },
+    {
+      "source": "We Work Remotely",
+      "found": 0,
+      "inserted": 0,
+      "updated": 0,
+      "invalid_records_skipped": 0
+    },
+    {
+      "source": "Remote OK",
+      "found": 0,
+      "inserted": 0,
+      "updated": 0,
+      "invalid_records_skipped": 0
+    },
+    {
+      "source": "Working Nomads",
+      "found": 0,
+      "inserted": 0,
+      "updated": 0,
+      "invalid_records_skipped": 0
+    }
+  ],
+  "failures": []
+}

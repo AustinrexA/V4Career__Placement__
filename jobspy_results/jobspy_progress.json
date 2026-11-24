@@ -1,0 +1,32 @@
+{
+  "signature": {
+    "roles": [
+      "Software Engineer",
+      "Software Developer",
+      "Graduate Engineer Trainee",
+      "Graduate Trainee",
+      "Cloud Engineer",
+      "IT Support Engineer",
+      "Hr Executive",
+      "Data Analyst",
+      "Data Analyst Intern",
+      "Business Analyst",
+      "Product Analyst",
+      "Data Engineer"
+    ],
+    "locations": [
+      "Chennai",
+      "Bangalore",
+      "Hyderabad"
+    ],
+    "sites": [
+      "indeed",
+      "naukri",
+      "linkedin",
+      "glassdoor",
+      "bayt"
+    ],
+    "hours_old": 48
+  },
+  "next_index": 0
+}

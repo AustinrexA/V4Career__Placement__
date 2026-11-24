@@ -1,0 +1,6 @@
+Stage: jobspy
+Started: 2026-11-24T10:11:59.998448+00:00
+Command: C:\Users\austi\AppData\Local\Programs\Python\Python310\python.exe scripts/run_jobspy.py --roles "Software Engineer" --locations Chennai Bangalore Hyderabad --sites indeed naukri linkedin glassdoor bayt --results-per-site 15 --hours-old 48 --restart
+
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+ERROR:jobspy.bayt:response status code 403 (blocked: use a proxy)

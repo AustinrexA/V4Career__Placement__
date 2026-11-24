@@ -1,0 +1,61 @@
+Stage: jobspy
+Started: 2026-11-24T09:57:51.046576+00:00
+Command: C:\Users\austi\AppData\Local\Programs\Python\Python310\python.exe scripts/run_jobspy.py --roles "Software Engineer" --locations Chennai Bangalore Hyderabad --sites indeed naukri linkedin glassdoor bayt --results-per-site 15 --hours-old 48 --restart
+
+ERROR:jobspy.bayt:response status code 403 (blocked: use a proxy)
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+Progress reset: starting from the first role/location combination.
+Starting JobSpy: indeed, naukri, linkedin, glassdoor, bayt
+Time budget: no overall limit (40-second per-search timeout remains)
+Requested per site/search: 15
+Database mode: LIVE WRITE using V4Career .env database
+Search combinations available: 3
+[BLOCKED] bayt, linkedin | Software Engineer | Chennai
+  [portal error] linkedin: response status code 429 (blocked: use a proxy)
+  [portal error] bayt: response status code 403 (blocked: use a proxy)
+  linkedin: response status code 429 (blocked: use a proxy)
+[partial (one or more portals blocked)] Software Engineer | Chennai: 55 raw rows in 17.6s
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  DB saved Glassdoor: found=15, inserted=0, updated=15
+  DB saved Indeed: found=14, inserted=0, updated=14
+  DB saved LinkedIn Jobs: found=10, inserted=0, updated=10
+  DB saved Naukri: found=15, inserted=0, updated=15
+[completed] Software Engineer | Bangalore: 75 raw rows in 25.5s
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  DB saved Bayt: found=15, inserted=0, updated=15
+  DB saved Glassdoor: found=15, inserted=0, updated=15
+  DB saved Indeed: found=13, inserted=1, updated=12
+  DB saved LinkedIn Jobs: found=13, inserted=0, updated=13
+  DB saved Naukri: found=14, inserted=0, updated=14
+[BLOCKED] linkedin | Software Engineer | Hyderabad
+  [portal error] linkedin: response status code 429 (blocked: use a proxy)
+  linkedin: response status code 429 (blocked: use a proxy)
+[partial (one or more portals blocked)] Software Engineer | Hyderabad: 70 raw rows in 19.7s
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  DB saved Glassdoor: found=15, inserted=0, updated=15
+  DB saved Indeed: found=15, inserted=0, updated=15
+  DB saved LinkedIn Jobs: found=8, inserted=0, updated=8
+  DB saved Naukri: found=11, inserted=0, updated=11
+
+--- JOBSPY RUN SUMMARY ---
+Elapsed seconds: 108.1
+Completed Searches: 3
+Blocked Searches: 2
+Raw Rows: 200
+Combined Unique Rows: 180
+Validated: 173
+Inserted: 1
+Updated: 172
+Duplicates In Run: 20
+Invalid Rows: 7
+Timed Out Searches: 0
+Failed Searches: 0
+Db Errors: 0
+Combined CSV: E:\copy1\V4Career_without_credits_badge\jobspy_results\jobspy_combined_latest.csv
+Resume progress: E:\copy1\V4Career_without_credits_badge\jobspy_results\jobspy_progress.json (use --restart to start over)
+Database saving completed through V4Career's existing repository.

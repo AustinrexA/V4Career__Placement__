@@ -1,0 +1,75 @@
+Stage: collector1
+Started: 2026-11-24T10:14:21.848859+00:00
+Command: C:\Users\austi\AppData\Local\Programs\Python\Python310\python.exe scripts/run_source_apify.py --source COLLECTOR1 --keyword "IT jobs" --location India --max-results 20 --hours-old 48
+
+2026-11-24 15:44:22,557 INFO Starting Actor for source=CutShort actor=silentflow~cutshort-jobs-scraper requested_max=20
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> Status: RUNNING, Message: 
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:24.778Z [33mACTOR: [39mPulling container image of build vuSmbc2JL7DQN67G7 from registry.
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:25.299Z [33mACTOR: [39mCreating container.
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:25.366Z [33mACTOR: [39mStarting container.
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:25.367Z [33mACTOR: [39mRunning under "LIMITED_PERMISSIONS".
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:25.422Z 2026/11/24 10:14:25 \U0001f50d Starting Cutshort Jobs Scraper...
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:25.498Z 2026/11/24 10:14:25 \U0001f4e5 Input loaded
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:25.499Z 2026/11/24 10:14:25 \U0001f50e Keywords: IT jobs
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:25.502Z 2026/11/24 10:14:25 \U0001f522 Max jobs: 20
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:27.833Z 2026/11/24 10:14:27 \U0001f50e "IT jobs": Cutshort category it-risk-jobs
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:27.897Z 2026/11/24 10:14:27   \U0001f4c4 it-risk-jobs page 1: 4 new jobs (total: 4)
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:28.047Z 2026/11/24 10:14:28   \U0001f4c4 it-risk-jobs-in-bangalore-bengaluru page 1: 0 new jobs (total: 4)
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:28.157Z 2026/11/24 10:14:28   \U0001f4c4 it-risk-jobs-in-pune page 1: 0 new jobs (total: 4)
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:28.327Z 2026/11/24 10:14:28   \U0001f4c4 it-risk-jobs-in-chennai page 1: 0 new jobs (total: 4)
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:28.330Z 2026/11/24 10:14:28 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:28.331Z 2026/11/24 10:14:28 \U0001f389 Scraping completed!
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:28.331Z 2026/11/24 10:14:28 \U0001f4ca Jobs saved: 4
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:28.332Z 2026/11/24 10:14:28 \u23f1\ufe0f Duration: 3s
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> 2026-11-24T10:14:28.333Z 2026/11/24 10:14:28 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501
+[36m[apify.cutshort-jobs-scraper runId:CZmd3EA28bMAXOKYk][0m -> Status: SUCCEEDED, Message: \u2705 4 Cutshort jobs saved.
+2026-11-24 15:44:33,903 INFO Database connection pool initialized (engine=postgres, min_size=1, max_size=5)
+2026-11-24 15:44:35,042 INFO Collection complete source=CutShort found=0 skipped=4
+2026-11-24 15:44:35,046 INFO Starting Actor for source=Wellfound actor=cprussin~wellfound-jobs requested_max=20
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> Status: RUNNING, Message: 
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:36.993Z [33mACTOR: [39mPulling container image of build RZ6wQRGXPRD6hUWni from registry.
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:36.995Z [33mACTOR: [39mCreating container.
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:37.046Z [33mACTOR: [39mStarting container.
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:37.048Z [33mACTOR: [39mRunning under "LIMITED_PERMISSIONS".
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:38.933Z [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.4"}[39m
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:39.066Z [32mINFO[39m  1 search(es), up to 20 jobs in total, 3 page(s) per search.
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:39.067Z [32mINFO[39m  Search: https://wellfound.com/role/l/it-jobs/india
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:39.127Z [32mINFO[39m  Using Apify Proxy.
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:44.464Z [33mWARN[39m  it-jobs @ india: Wellfound has no listing page for it-jobs @ india (redirected to https://wellfound.com/location/india). Check the role/location slug.
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:44.466Z [31mERROR[39m Run failed
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:44.467Z   All searches failed: Wellfound has no listing page for it-jobs @ india (redirected to https://wellfound.com/location/india). Check the role/location slug.
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:44.469Z   [90m    at runJobs (file:///usr/src/app/dist/run.js:153:15)[39m
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:44.470Z   [90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:44.472Z   [90m    at async file:///usr/src/app/dist/main.js:85:19[39m
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> 2026-11-24T10:14:44.473Z [31mERROR[39m [Status message]: All searches failed: Wellfound has no listing page for it-jobs @ india (redirected to https://wellfound.com/location/india). Check the role/location slug.
+[36m[apify.wellfound-jobs runId:J730kdzvBLlZIzNhb][0m -> Status: FAILED, Message: 
+2026-11-24 15:44:50,237 ERROR Collector COLLECTOR1 source Wellfound failed: Actor run did not succeed: FAILED
+2026-11-24 15:44:50,242 INFO Starting Actor for source=Unstop actor=data_daemon~unstop-scraper requested_max=20
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> Status: RUNNING, Message: 
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:52.300Z [33mACTOR: [39mPulling container image of build JTnaGGEUsJhoHYt6x from registry.
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:53.022Z [33mACTOR: [39mCreating container.
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:53.109Z [33mACTOR: [39mStarting container.
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:53.111Z [33mACTOR: [39mRunning under "LIMITED_PERMISSIONS".
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:54.595Z [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v24.22.1"}[39m
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:54.729Z [32mINFO[39m  Reading "searchQuery" as "searchTerms".
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:54.731Z [32mINFO[39m  Reading "maxItems" as "maxResults".
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:54.733Z [32mINFO[39m  Starting Unstop scraper[90m {"opportunityTypes":["jobs","internships"],"searchTerms":["IT jobs"],"workplaceTypes":[],"locations":[],"includeDescription":true,"maxResultsPerSearch":50,"maxResults":20,"onlyNewSinceLastRun":false,"skipIds":0}[39m
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:58.963Z [32mINFO[39m  jobs "IT jobs" page 1: 100 listings, 50 to save[90m {"total":1053}[39m
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:59.089Z [32mINFO[39m  Reached maxResults, stopping.[90m {"pushed":20}[39m
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:59.092Z [32mINFO[39m  Done[90m {"found":50,"pushed":20,"byType":{"job":20},"skippedSeen":0,"skippedByInput":0,"skippedFiltered":0}[39m
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> 2026-11-24T10:14:59.170Z [32mINFO[39m  [Status message]: Saved 20 listings (20 jobs). Found this useful? A short review on the Actor's Store page helps others find it.
+[36m[apify.unstop-scraper runId:D0b8uP6SJpCtGtypg][0m -> Status: SUCCEEDED, Message: Saved 20 listings (20 jobs). Found this useful? A short review on the Actor's Store page helps others find it.
+2026-11-24 15:45:05,613 INFO Collection complete source=Unstop found=0 skipped=20
+2026-11-24 15:45:05,615 INFO Starting Actor for source=Foundit actor=deriverge~foundit-jobs-scraper requested_max=20
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> Status: RUNNING, Message: 
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> 2026-11-24T10:15:07.679Z [33mACTOR: [39mPulling container image of build UIFHl7cqV85VKG7hR from registry.
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> 2026-11-24T10:15:09.169Z [33mACTOR: [39mCreating container.
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> 2026-11-24T10:15:09.435Z [33mACTOR: [39mStarting container.
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> 2026-11-24T10:15:09.436Z [33mACTOR: [39mRunning under "LIMITED_PERMISSIONS".
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> 2026-11-24T10:15:12.314Z [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.26.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.4"}[39m
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> 2026-11-24T10:15:12.428Z [32mINFO[39m  Reading Foundit India: "IT jobs" in India...
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> 2026-11-24T10:15:12.917Z [33mWARN[39m  India: "IT jobs" in India matches 11,649 jobs, but Foundit shows at most 10,000 per search. Add locations, keywords, experience or a posted-within filter to split it.
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> 2026-11-24T10:15:14.273Z [32mINFO[39m  [Status message]: 20 jobs returned
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> 2026-11-24T10:15:14.405Z [32mINFO[39m  Done: 20 jobs returned, 20 with full details.
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> 2026-11-24T10:15:14.492Z [32mINFO[39m  Done: 20 items, 1 pages, 100.0 % success, 2.0 s
+[36m[apify.foundit-jobs-scraper runId:6l98tF2PC0aEUH0iN][0m -> Status: SUCCEEDED, Message: 20 jobs returned

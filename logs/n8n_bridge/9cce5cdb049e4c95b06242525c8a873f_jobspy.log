@@ -1,0 +1,53 @@
+Stage: jobspy
+Started: 2026-11-24T10:09:55.888441+00:00
+Command: C:\Users\austi\AppData\Local\Programs\Python\Python310\python.exe scripts/run_jobspy.py --roles "Software Engineer" --locations Chennai Bangalore Hyderabad --sites indeed naukri linkedin glassdoor bayt --results-per-site 15 --hours-old 48 --restart
+
+Progress reset: starting from the first role/location combination.
+Starting JobSpy: indeed, naukri, linkedin, glassdoor, bayt
+Time budget: no overall limit (40-second per-search timeout remains)
+Requested per site/search: 15
+Database mode: LIVE WRITE using V4Career .env database
+Search combinations available: 3
+[completed] Software Engineer | Chennai: 75 raw rows in 24.5s
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  DB saved Bayt: found=15, inserted=0, updated=15
+  DB saved Glassdoor: found=15, inserted=0, updated=15
+  DB saved Indeed: found=14, inserted=0, updated=14
+  DB saved LinkedIn Jobs: found=15, inserted=1, updated=14
+  DB saved Naukri: found=14, inserted=1, updated=13
+[completed] Software Engineer | Bangalore: 75 raw rows in 24.0s
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  DB saved Glassdoor: found=15, inserted=0, updated=15
+  DB saved Indeed: found=12, inserted=0, updated=12
+  DB saved LinkedIn Jobs: found=13, inserted=0, updated=13
+  DB saved Naukri: found=13, inserted=0, updated=13
+[completed] Software Engineer | Hyderabad: 75 raw rows in 25.0s
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  Skipped invalid CSV row: missing, unparseable, or older than the 48-hour freshness window
+  DB saved Glassdoor: found=15, inserted=0, updated=15
+  DB saved Indeed: found=15, inserted=0, updated=15
+  DB saved LinkedIn Jobs: found=13, inserted=0, updated=13
+  DB saved Naukri: found=11, inserted=0, updated=11
+
+--- JOBSPY RUN SUMMARY ---
+Elapsed seconds: 112.3
+Completed Searches: 3
+Blocked Searches: 0
+Raw Rows: 225
+Combined Unique Rows: 189
+Validated: 180
+Inserted: 2
+Updated: 178
+Duplicates In Run: 35
+Invalid Rows: 10
+Timed Out Searches: 0
+Failed Searches: 0
+Db Errors: 0
+Combined CSV: E:\copy1\V4Career_without_credits_badge\jobspy_results\jobspy_combined_latest.csv
+Resume progress: E:\copy1\V4Career_without_credits_badge\jobspy_results\jobspy_progress.json (use --restart to start over)
+Database saving completed through V4Career's existing repository.
